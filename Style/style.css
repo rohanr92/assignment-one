@@ -49,7 +49,18 @@ body {
     font-weight: 400;
     color: #8987A1;
     line-height: 150%;
+    opacity: 0.5;
 }
+
+.thd-par {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #8987A1;
+    line-height: 150%;
+}
+
+
 
 .sec-tit {
     font-family: "Raleway", sans-serif;
@@ -243,4 +254,163 @@ header .main-header {
     font-weight: normal;
     color: #1E1E1E;
     line-height: 140%;
+}
+
+/* focus section start from here */
+
+.focus-wrapper {
+    max-width: 1140px;
+    margin: 0px auto 92.33px auto;
+    text-align: center;
+    background-color: #FFFFFF;
+    border-radius: 14px;
+}
+
+.focus-wrapper .focus-new-wrapper h2 {
+    font-size: 50px;
+    font-weight: bold;
+    color: #000000;
+    font-family: "Raleway", sans-serif;
+    margin-bottom: 20px;
+}
+
+.focus-wrapper .focus-new-wrapper img {
+    border-radius: 48px;
+
+}
+
+.focus-wrapper .focus-new-wrapper button {
+    margin: 20px 0px;
+}
+
+
+.focus-wrapper .focus-new-wrapper {
+        padding: 71px 150px;
+}
+
+
+/* Get in touch starts from here */
+
+.get-in-touch {
+    max-width: 1140px;
+    margin: 0px auto;
+    height: 632px;
+    display: flex;
+    align-items: center;
+   
+}
+
+.get-in-touch .get-in-wrapper h2 {
+    font-size: 97px;
+    font-weight: bold;
+    font-family: "Raleway", sans-serif;
+    line-height: 120%;
+
+}
+
+
+.get-in-touch .get-in-wrapper {
+    display: flex;
+    gap: 115px;
+    align-items: center;
+}
+
+form input[type="text"], input[type="email"], input[type="textarea"] {
+   display: block;
+       margin-bottom: 19px;
+       width: 100%;
+       height: 70px;
+       box-sizing: border-box;
+       padding: 17px 32px;
+       font-family: "Inter", sans-serif;
+       font-size: 20px;
+}
+
+.form-wrapper {
+    width: 50%;
+
+}
+
+.form-title-wrapper {
+     width: 50%;
+}
+
+form input::placeholder {
+    font-size: 20px;
+    color: #000000;
+    opacity: 0.5;
+    font-family: "Inter", sans-serif;
+    font-weight: 400px;
+}
+
+
+form input[type="button"] {
+   display: block;
+    width: 100%;
+    height: 70px;
+    box-sizing: border-box;
+    background-color: #4E47FF;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    transition: 0.5s;;
+    cursor: pointer;
+}
+
+input[type="button"]:hover {
+    background-color: rgb(250, 173, 31);
+    color: black;
+}
+
+form p {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+
+}
+
+.footer-wrapper {
+    height: 428px;
+    background: #FFFFFF;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.footer-wrapper .footer-content {
+    height: 221px;
+    width: 531px;
+    margin: 0 auto;
+    text-align: center;
+    align-content: center;
+}
+
+.footer-content h2 {
+    color: #4E47FF;
+    font-size: 100px;
+    font-family: "Inter", sans-serif;
+    font-weight: 900;
+    margin-bottom: 8px;
+
+}
+
+.footer-wrapper .footer-content li {
+    list-style: none;
+}
+
+.footer-wrapper .footer-content ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-wrapper .footer-content .fot-wrap {
+    width: 401px;
+    height: 24px;
+    margin: auto;
+    margin-top: 20px;
 }
