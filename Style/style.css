@@ -1,0 +1,238 @@
+.inter-website-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+.raleway-secondery-font {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #f5f8ff;
+}
+
+/* shared style starts from here */
+
+.primary-btn {
+    padding: 12px 36px;
+    background-color: #4E47FF;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    transition: 0.5s;;
+    cursor: pointer;
+}
+
+.primary-btn:hover {
+    background-color: rgb(250, 173, 31);
+    color: black;
+}
+
+
+.sec-par {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #8987A1;
+    line-height: 150%;
+}
+
+.sec-tit {
+    font-family: "Raleway", sans-serif;
+    font-size: 42px;
+    color: #252432;
+    font-weight: bold;
+
+}
+
+/* start header work from here */
+
+header .main-header .header-logo {
+    font-size: 34px;
+    font-weight: 900;
+    color: #4E47FF;
+    font-family: "Inter", sans-serif;
+    text-transform: uppercase;
+}
+
+header .main-header {
+    display: flex;
+    align-items: center;
+    padding: 50px 150px;
+    justify-content: space-between;
+   
+}
+
+.top-header {
+    background-image: url(../Assets/Hero-bg.png);
+    height: 698px;
+    margin: 0px auto;
+}
+
+.top-header .hero-info {
+    height: 547px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    margin: 0px auto;
+}
+
+
+.top-header .hero-info .header-content-wrapper {
+        padding: 0px 267px;
+        margin: 0px auto;
+}
+
+.top-header .hero-info h1 {
+    font-size: 65px;
+    font-weight: bold;
+    font-family: "Raleway", sans-serif;
+    margin: 0px 0px 37px 0px;
+}
+
+/* start work live conference section */
+
+.show-live {
+    max-width: 1140px;
+    margin: 116px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 220px;
+    
+}
+
+.live-new-info p {
+    font-size: 24px;
+    font-weight: normal;
+    font-family: "Raleway", sans-serif;
+    margin: 23px 0px;
+    color: #252432;
+    opacity: 0.5;
+    
+}
+
+
+/* start success wrapper from here */
+
+
+.success-wrapper {
+    max-width: 1140px;
+    margin: 0px auto 137px auto;
+    background-color: rgba(78, 71, 255, .10);
+    height: 306px;
+    border-radius: 24px;
+}
+
+.success-wrapper h2 {
+    text-align: center;
+    color: #252432;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.inforatiom-success .inof-new-wrapper h3 {
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF;
+    font-family: "Inter", sans-serif;
+}
+
+.inforatiom-success .inof-new-wrapper p {
+    font-size: 20px;
+    font-weight: normal;
+    color: #000000;
+    opacity: 0.5;
+    font-family: "Inter", sans-serif;
+}
+
+.success-wrapper .inforatiom-success {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px 0px 0px 0px;
+}
+
+.success-wrapper .success-wrapper-two {
+    padding: 50px 142px;
+}
+
+/* Starting testimonial Section from here */
+
+.testomonial-card {
+    max-width: 1140px;
+    margin: 0 auto 137px auto;
+    height: 342px;
+}
+
+.testomonial-card h3 {
+    text-align: center;
+}
+
+.star {
+    letter-spacing: 6px;
+    color: #ffc107;
+    font-size: 18px;
+}
+
+.testomonial-card .testo-cli-img {
+    display: flex;
+    gap: 12px;
+}
+
+.testomonial-card .testo-cli-img img {
+    border-radius: 50%;
+}
+
+.all-card-wrapper {
+    display: flex;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+
+.testomonial-card .card-info {
+    padding: 24px 24px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 1px solid #F2EDED;
+    border-radius: 14px;
+
+}
+
+.testomonial-card .testo-inside-info {
+    margin-top: 24px;
+    margin-bottom: 24px
+}
+
+.testomonial-card .testo-inside-info h4{
+    font-size: 24px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    color: #1E1E1E;
+    margin-bottom: 8px;
+}
+
+
+.testomonial-card .testo-inside-info p{
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    font-weight: normal;
+    color: #1E1E1E;
+    line-height: 140%;
+}
