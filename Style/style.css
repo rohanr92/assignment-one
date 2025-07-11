@@ -74,6 +74,8 @@ header .main-header {
     align-items: center;
     padding: 50px 150px;
     justify-content: space-between;
+    max-width: 1140px;
+    margin: 0px auto;
    
 }
 
@@ -81,6 +83,7 @@ header .main-header {
     background-image: url(../Assets/Hero-bg.png);
     height: 698px;
     margin: 0px auto;
+
 }
 
 .top-header .hero-info {
@@ -95,6 +98,7 @@ header .main-header {
 .top-header .hero-info .header-content-wrapper {
         padding: 0px 267px;
         margin: 0px auto;
+        max-width: 1140px;
 }
 
 .top-header .hero-info h1 {
@@ -124,6 +128,10 @@ header .main-header {
     color: #252432;
     opacity: 0.5;
     
+}
+
+.live-new-info img {
+    border-radius: 48px;
 }
 
 
