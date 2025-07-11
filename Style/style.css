@@ -107,7 +107,6 @@ header .main-header {
 
 
 .top-header .hero-info .header-content-wrapper {
-        padding: 0px 267px;
         margin: 0px auto;
         max-width: 1140px;
 }
@@ -116,7 +115,8 @@ header .main-header {
     font-size: 65px;
     font-weight: bold;
     font-family: "Raleway", sans-serif;
-    margin: 0px 0px 37px 0px;
+    margin: 0px auto 37px auto;
+    padding: 0px 140.5px;
 }
 
 /* start work live conference section */
@@ -256,6 +256,21 @@ header .main-header {
     line-height: 140%;
 }
 
+
+.testomonial-card .review-name {
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    font-family: 600;
+    color: #757575;  
+}
+
+.testomonial-card .review-date {
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    font-family: 400;
+    color: #B3B3B3;  
+}
+
 /* focus section start from here */
 
 .focus-wrapper {
@@ -324,6 +339,9 @@ form input[type="text"], input[type="email"], input[type="textarea"] {
        padding: 17px 32px;
        font-family: "Inter", sans-serif;
        font-size: 20px;
+       border-radius: 10px;
+       outline: none;
+       border: 1px solid #D6DDED;
 }
 
 .form-wrapper {
@@ -373,12 +391,30 @@ form p {
 
 }
 
+
+form textarea {
+  
+       margin-bottom: 19px;
+       width: 100%;
+       height: 100px;
+       box-sizing: border-box;
+       padding: 17px 32px 10px 32px;
+       font-family: "Inter", sans-serif;
+       font-size: 20px;
+       border-radius: 10px;
+       outline: none;
+       border: 1px solid #D6DDED;
+}
+
+/* footer starts from here */
+
 .footer-wrapper {
     height: 428px;
     background: #FFFFFF;
     justify-content: center;
     display: flex;
     align-items: center;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .footer-wrapper .footer-content {
@@ -414,3 +450,12 @@ form p {
     margin: auto;
     margin-top: 20px;
 }
+
+
+.footer-wrapper .footer-content a {
+    text-decoration: none;
+    color: #8987A1;
+    font-size: 16px
+}
+
+
